@@ -1,8 +1,8 @@
 HELP.md
 target/
-.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
 
 ### STS ###
 .apt_generated
@@ -26,8 +26,47 @@ target/
 /nbdist/
 /.nb-gradle/
 build/
-!**/src/main/**/build/
-!**/src/test/**/build/
 
 ### VS Code ###
 .vscode/
+
+
+
+.settings/org.eclipse.core.resources.prefs
+
+*.class
+
+.settings/org.eclipse.jdt.core.prefs
+
+.settings/org.eclipse.m2e.core.prefs
+
+.swagger-codegen-ignore
+
+.swagger-codegen/VERSION
+
+.travis.yml
+
+build.gradle
+
+build.sbt
+
+git_push.sh
+
+gradle.properties
+
+gradle/wrapper/gradle-wrapper.properties
+
+gradlew
+
+gradlew.bat
+
+settings.gradle
+
+*.original
+
+*/target/*
+
+*/.settings/*
+*.bpmn2d
+*/logs/*
+*.log
